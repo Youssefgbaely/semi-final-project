@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap style -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- local styling -->
+    <link rel="stylesheet" href="./CSS style/home2.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class=" p-2 ">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logos d-flex justify-content-center">
+                <div class="vector">
+                    <img src="./Images/vector1.png" alt="one">
+                    <img src="./Images/vector2.png" alt="tow">
+                    <img src="./Images/vector3.png" alt="three">
+                    <img src="./Images/vector4.png" alt="four">
+                </div>
+                <div class="logo">
+                    <a href="./Medical Store.html" class="text-reset text-decoration-none fw-500">Medifit</a>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 448 512" class="d-lg-none">
+                <path fill="currentColor"
+                    d="M0 96c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32m0 160c0-17.7 14.3-32 32-32h384c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32m448 160c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32h384c17.7 0 32 14.3 32 32" />
+            </svg>
+            <ul class="d-flex gap-3 list-unstyled d-none d-m-none d-lg-flex d-xl-flex ">
+                <li class="">
+                    <a href="./home2.html" class="text-reset text-decoration-none">Home</a>
+                </li>
+                <li>
+                    <a href="./shop detail.html" class="text-reset text-decoration-none">Shop</a>
+                </li>
+                <li>
+                    <a href="#" class="text-reset text-decoration-none">Pages</a>
+                </li>
+                <li>
+                    <a href="./About.html" class="text-reset text-decoration-none">About</a>
+                </li>
+                <li>
+                    <a href="./Contact.html" class="text-reset text-decoration-none">Contact</a>
+                </li>
+            </ul>
+            <div class="svg">
+                <!-- search icon -->
+                <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="M9.539 15.23q-2.398 0-4.065-1.666Q3.808 11.899 3.808 9.5t1.666-4.065T9.539 3.77t4.064 1.666T15.269 9.5q0 1.042-.369 2.017t-.97 1.668l5.909 5.907q.14.14.15.345q.009.203-.15.363q-.16.16-.354.16t-.354-.16l-5.908-5.908q-.75.639-1.725.989t-1.96.35m0-1q1.99 0 3.361-1.37q1.37-1.37 1.37-3.361T12.9 6.14T9.54 4.77q-1.991 0-3.361 1.37T4.808 9.5t1.37 3.36t3.36 1.37" />
+                </svg>
+                <!-- shopping car icon -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none">
+                        <path fill="currentColor"
+                            d="M3 2.25a.75.75 0 0 0 0 1.5zM5 3l.748-.058A.75.75 0 0 0 5 2.25zm16 3l.745.083A.75.75 0 0 0 21 5.25zM5.23 6l-.747.058zm13.109 9.119l.053.748zm-10.355.74l-.053-.749zM3 3.75h2v-1.5H3zm5.037 12.856l10.355-.74l-.107-1.495l-10.354.74zm12.892-3.179l.816-7.344l-1.49-.166l-.816 7.345zM4.252 3.057l.231 3l1.496-.115l-.231-3zm.231 3l.617 8.017l1.495-.115l-.616-8.017zM21 5.25H5.23v1.5H21zm-2.608 10.617a2.75 2.75 0 0 0 2.537-2.44l-1.49-.165a1.25 1.25 0 0 1-1.154 1.109zM7.931 15.11a1.25 1.25 0 0 1-1.336-1.15l-1.495.114a2.75 2.75 0 0 0 2.937 2.532z" />
+                        <path stroke="currentColor" stroke-linejoin="round" stroke-width="2.25"
+                            d="M8.5 20.5h.01v.01H8.5zm9 0h.01v.01h-.01z" />
+                    </g>
+                </svg>
+            </div>
+        </div>
+    </nav>
+    <!-- header -->
+    <header>
+        <img class="float-end object-fit-cover" src="./Images/imageHome2Header.jpg" alt="imageHome2Header">
+        <div class="container">
+            <h1>From wellness to care all in one place</h1>
+            <div class="contint d-flex gap-2">
+                <div>
+                    <img src="./Images/home2Image2.jpg" alt="home2Image2">
+                </div>
+                <div class="toke d-flex flex-column gap-4">
+                    <p>
+                        Your health is in good hands with Medifit. We’re here to provide you with a wide range of
+                        healthcare essentials, carefully selected.
+                    </p>
+                    <a href="#"
+                        class="text-reset text-decoration-none d-flex justify-content-center align-items-center gap-2">
+                        <svg class="text-white fs-6 " xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            viewBox="0 0 48 48">
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                d="m5.815 15.64l2.056 20.267a8.445 8.445 0 0 0 8.402 7.593h15.454a8.445 8.445 0 0 0 8.402-7.593l2.056-20.268z"
+                                stroke-width="1" />
+                            <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                d="M15.633 15.64v-2.816a8.366 8.366 0 0 1 16.732 0v2.815" stroke-width="1" />
+                        </svg>
+                        Shop now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- line section -->
+    <section class="line">
+        <div class="container">
+            <div class="bars d-flex align-items-center flex-wrap">
+                <div class="bar d-flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M5.434 18.566Q5 18.133 5 17.5v-2.808q0-.632.434-1.066q.433-.434 1.066-.434t1.066.434T8 14.692V17.5q0 
+                            .633-.434 1.066Q7.133 19 6.5 19t-1.066-.434M12 19q-.633 0-1.066-.434q-.434-.433-.434-1.066v-11q0-.633.434-1.066Q11.367 5 12 5t1.066.434T13.5 6.5v11q0 .633-.434 
+                            1.066Q12.633 19 12 19m4.434-.434Q16 18.133 16 17.5v-6.192q0-.633.434-1.067q.433-.433 1.066-.433t1.066.433q.434.434.434 1.067V17.5q0 .633-.434 1.066Q18.133 19 17.5 19t-1.066-.434" />
+                    </svg>
+                    <h4>Emblem</h4>
+                </div>
+                <div class="bar d-flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <circle cx="12" cy="12" r="10" />
+                            <path d="M16.5 20.93a5 5 0 1 1-.6-9a7 7 0 0 0-13.9.6" />
+                        </g>
+                    </svg>
+                    <h4>Grapho</h4>
+                </div>
+                <div class="bar d-flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4" d="m6 10l36-6v7L6 17zm0 14l36-6v7L6 31zm0 14l36-6v7L6 45z" />
+                    </svg>
+                    <h4>WAYLINE</h4>
+                </div>
+                <div class="bar d-flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5">
+                            <path d="M12 17.25a5.25 5.25 0 1 0 0-10.5a5.25 5.25 0 0 0 0 10.5" />
+                            <path d="M12 13.5a1.5 1.5 0 1 0 0-3a1.5 1.5 0 0 0 0 3" />
+                            <path d="M21 12a9 9 0 1 1-18 0a9 9 0 0 1 18 0" />
+                        </g>
+                    </svg>
+                    <h4>Signet</h4>
+                </div>
+                <div class="bar d-flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M10 16v4h4v-4zm-2-2v-4H4v4zm2 0h4v-4h-4zm6 0h4v-4h-4zm0-6h4V4h-4zm-8 8H4q-.825 0-1.412-.587T2 14v-4q0-.825.588-1.412T4 
+                            8h10V4q0-.825.588-1.412T16 2h4q.825 0 1.413.588T22 4v10q0 .825-.587 1.413T20 16h-4v4q0 .825-.587 1.413T14 22h-4q-.825 0-1.412-.587T8 20z" />
+                    </svg>
+                    <h4>PRELUDE</h4>
+                </div>
+                <div class="bar d-flex gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M8.75 1.934A1.25 1.25 0 0 0 6.807.894L5.029 2.08a1.75 1.75 0 0 0-.779 1.456V8.5a.75.75 0 0 0 1.5 0V3.535a.25.25 0 0 1 
+                            .111-.208l1.389-.925v8.348H5a.75.75 0 0 0-.75.75v4A7.75 7.75 0 1 0 12 7.75h-1a.75.75 0 0 0 0 1.5h1a6.25 6.25 0 1 1-6.25 
+                            6.25v-3.25h1.5v3.25A4.75 4.75 0 1 0 12 10.75H8.75zm0 13.566v-3.25H12a3.25 3.25 0 1 1-3.25 3.25m3-1.5a1.25 1.25 0 1 0 0 2.5a1.25 1.25 0 0 0 0-2.5"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <h4>Signum</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- continue section -->
+    <section class="continue">
+        <div class="container">
+            <!-- services -->
+            <div class="services d-flex gap-2">
+                <div class="service d-flex flex-column align-items-start gap-5 gap-lg-4 gap-md-3 gap-sm-1">
+                    <h4>
+                        Bringing trusted health solutions to your doorstep focused on quality care & reliability
+                    </h4>
+                    <p>
+                        Our store offers a comprehensive range of pharmaceuticals, health and wellness products, and
+                        medical
+                        supplies to meet the diverse needs of our community.
+                    </p>
+                    <button>Our story</button>
+                </div>
+                <div>
+                    <img src="./Images/image3Home2.jpg" alt="image3Home2">
+                </div>
+            </div>
+            <!-- anotherServices -->
+            <div class="anoterServices d-flex justify-content-between align-items-center pt-5 flex-wrap">
+                <div class="anoterService">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 16 16">
+                        <path fill="none" stroke="currentColor" d="M9 12.5s2.678.322 4.208-1.208S14.5 6.5 14.5 
+                        6.5s-3.11-.447-4.5 1c-.435.453-1 1-1 2.5zm0 0s-3.5.5-5.912-1.912S1.5 3.5 1.5 3.5s3.652-.348 6.059 2.059C8.526 
+                        6.526 9 8 9 9.706zm2.5-2.5L9 12M5 8l3.782 3.972" stroke-width="1" />
+                    </svg>
+                    <p class="pt-2">Thoughtfully Made</p>
+                </div>
+                <div class="anoterService">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 640 640">
+                        <path fill="currentColor"
+                            d="M192 56c0-13.3 10.7-24 24-24h208c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24m-32 136c0-35.3 28.7-64 64-64h192c35.3 0 64 28.7 64 64v320c0 35.3-28.7 64-64 
+                            64H224c-35.3 0-64-28.7-64-64zm112 32h-42.2c-3.2 0-5.8 2.6-5.8 5.8c0 32.1 26 58.2 58.2 58.2h75.6c32.1 0 58.2-26 58.2-58.2c0-3.2-2.6-5.8-5.8-5.8H368c-19.1 
+                            0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7m48 117.7c-11.7-13.3-28.9-21.7-48-21.7h-42.2c-3.2 0-5.8 2.6-5.8 5.8c0 32.1 26 58.2 58.2 58.2h75.6c32.1 0 
+                            58.2-26 58.2-58.2c0-3.2-2.6-5.8-5.8-5.8H368c-19.1 0-36.3 8.4-48 21.7M272 416h-42.2c-3.2 0-5.8 2.6-5.8 5.8c0 32.1 26 58.2 58.2 58.2H304v32c0 8.8 7.2 16 16 16s16-7.2 
+                            16-16v-32h21.8c32.1 0 58.2-26 58.2-58.2c0-3.2-2.6-5.8-5.8-5.8H368c-19.1 0-36.3 8.4-48 21.7c-11.7-13.3-28.9-21.7-48-21.7" />
+                    </svg>
+                    <p class="pt-2">Non-Toxic Formula</p>
+                </div>
+                <div class="anoterService">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="m15.309 2.75l.284-.694a.75.75 0 0 0-.57 0z" />
+                        <path fill="currentColor" d="m15.309 2.75l-.285-.694h-.001l-.002.001l-.004.002l-.01.004l-.034.015l-.11.05a6.4 6.4 0 0 0-1.453.979c-.794.716-1.644 1.873-1.644 3.524c0 2.02 1.536 3.752 3.543 3.752c2.006 
+                            0 3.542-1.732 3.542-3.752c0-1.65-.85-2.808-1.644-3.524a6.4 6.4 0 0 0-1.454-.979l-.11-.05l-.033-.015l-.01-.004l-.004-.002h-.002zm.894 1.472c.602.541 1.148 1.324 1.148 2.409c0 
+                            .982-.554 1.77-1.292 2.093V6.106a.75.75 0 0 0-1.5 0v2.618c-.738-.323-1.293-1.11-1.293-2.093c0-1.085.547-1.868 1.148-2.409a5 5 0 0 1 .895-.635l.063.035c.228.131.53.33.831.6m3.224 
+                            6.862a1.578 1.578 0 0 1 2.226 2.212l-3.867 4.829a1.98 1.98 0 0 1-1.544.741h-6.174a.75.75 0 0 0-.503.194l-.525.475a.75.75 0 0 1-.34.877l-2.576 1.487a.75.75 0 0 1-1.025-.274L2.101 
+                            16.43a.75.75 0 0 1 .274-1.025l2.577-1.487a.75.75 0 0 1 .743-.004l1.693-1.353c.553-.442 1.253-.747 2.025-.75c.813-.004 2.099.068 3.262.492h2.598c.662 0 1.239.36 1.548.893zM8.559 
+                            17.948a2.25 2.25 0 0 1 1.51-.582h6.173a.48.48 0 0 0 .373-.179l3.867-4.829a.078.078 0 0 0-.11-.109l-3.852 3.123a1.78 1.78 0 0 1-1.247.507h-2.735a.75.75 0 1 1 0-1.5h2.735q.07 0 
+                            .13-.03l.024-.021l.073-.06a.288.288 0 0 0-.227-.465h-2.682q-.197 0-.369-.067c-.926-.353-2.033-.428-2.802-.425c-.374.002-.755.15-1.096.423l-1.788 1.43l1.75 3.03zM3.775 16.33l2.248 
+                            3.895l1.278-.738l-2.249-3.894z" />
+                    </svg>
+                    <p class="pt-2">Organic Essentials</p>
+                </div>
+                <div class="anoterService ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M3 10.417c0-3.198 0-4.797.378-5.335c.377-.537 1.88-1.052 4.887-2.081l.573-.196C10.405 2.268 11.188 2 
+                                12 2s1.595.268 3.162.805l.573.196c3.007 1.029 4.51 1.544 4.887 2.081C21 5.62 21 7.22 21 10.417v1.574c0 
+                                5.638-4.239 8.375-6.899 9.536C13.38 21.842 13.02 22 12 22s-1.38-.158-2.101-.473C7.239 20.365 3 17.63 3 11.991z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="m9.5 12.4l1.429 1.6l3.571-4" />
+                        </g>
+                    </svg>
+                    <p class="pt-2">Safe for Everyone</p>
+                </div>
+            </div>
+            <!-- anotherServices2 -->
+            <div class="products d-flex gap-5 flex-wrap align-items-center">
+                <div class="collection">
+                    <h5>Discover our collection</h5>
+                    <p>Our medical store offers trusted products easy navigation, and fast shipping</p>
+                    <button>View all products ></button>
+                </div>
+                <div class="product">
+                    <div class="img d-flex flex-column justify-content-center align-items-center">
+                        <img src="./Images/home2Service1.png" alt="home2Service1">
+                        <a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                                <path fill="none" stroke="currentColor" stroke-linejoin="round" d="M6 6.5h4m-4 2h4m-6-4h9.5l-1 6h-9l-1-8H1m9.25 9.75a1.06 1.06 0 1 0 1.5 1.5a1.06 1.06 0 0 0-1.5-1.5Zm-6 
+                                    0a1.06 1.06 0 1 0 1.5 1.5a1.06 1.06 0 0 0-1.5-1.5Z" stroke-width="1" />
+                            </svg>
+                            Shop now
+                        </a>
+                    </div>
+                    <div>
+                        <h5 class="fs-4 fw-medium pt-3">Hair tablets</h5>
+                        <span class="fs-6 fw-medium">$19.00 USD</span>
+                        <span class="fs-6 fw-medium">$25.00 USD</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="img">
+                        <img src="./Images/hom2Service2.png" alt="hom2Service2">
+                    </div>
+                    <div>
+                        <h5 class="fs-4 fw-medium pt-3">Pressure measuring</h5>
+                        <span class="fs-6 fw-medium">$25.00 USD</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="img">
+                        <img src="./Images/home2Service3.png" alt="hom2Service3">
+                    </div>
+                    <div>
+                        <h5 class="fs-4 fw-medium pt-3">Diving mask</h5>
+                        <span class="fs-6 fw-medium">$40.00 USD</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="img">
+                        <img src="./Images/home2Service4.png" alt="hom2Service4">
+                    </div>
+                    <div>
+                        <h5 class="fs-4 fw-medium pt-3">Temperature gun</h5>
+                        <span class="fs-6 fw-medium">$20.00 USD</span>
+                        <span class="fs-6 fw-medium">$25.00 USD</span>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="img">
+                        <img src="./Images/home2Service5.png" alt="hom2Service5">
+                    </div>
+                    <div>
+                        <h5 class="fs-4 fw-medium pt-3">Nebulizer mask</h5>
+                        <span class="fs-6 fw-medium">$15.00 USD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gategory section -->
+    <section class="gategory">
+        <div class="container">
+            <h2>Shop by category</h2>
+            <div class="gategos d-flex justify-content-center align-items-center pt-5 gap-5 flex-wrap">
+                <div class="gatego d-flex justify-content-center align-items-center">
+                    <div class="box"></div>
+                    <div class="img2">
+                        <img src="./Images/gar1.png" alt="gar1">
+                    </div>
+                </div>
+                <div class="gatego d-flex justify-content-center align-items-center">
+                    <div class="box"></div>
+                    <div class="img2">
+                        <img src="./Images/gar2.png" alt="gar2">
+                    </div>
+                </div>
+                <div class="gatego d-flex justify-content-center align-items-center">
+                    <div class="box"></div>
+                    <div class="img2">
+                        <img src="./Images/gar3.png" alt="gar3">
+                    </div>
+                </div>
+            </div>
+            <div class="logos d-flex justify-content-center align-items-center flex-wrap">
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24">
+                        <path fill="currentColor" d="M4.24 12.25a4.2 4.2 0 0 1-1.24-3A4.25 4.25 0 0 1 7.25 5c1.58 0 2.96.86 3.69 2.14h1.12A4.24 
+                            4.24 0 0 1 15.75 5A4.25 4.25 0 0 1 20 9.25c0 1.17-.5 2.25-1.24 3L11.5 19.5zm15.22.71C20.41 12 21 
+                            10.7 21 9.25A5.25 5.25 0 0 0 15.75 4c-1.75 0-3.3.85-4.25 2.17A5.22 5.22 0 0 0 7.25 4A5.25 
+                            5.25 0 0 0 2 9.25c0 1.45.59 2.75 1.54 3.71l7.96 7.96z" />
+                    </svg>
+                    <h6>
+                        Health care
+                    </h6>
+                </div>
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 16 16">
+                        <path fill="none" stroke="currentColor"
+                            d="M9 12.5s2.678.322 4.208-1.208S14.5 6.5 14.5 6.5s-3.11-.447-4.5 1c-.435.453-1 1-1 
+                            2.5zm0 0s-3.5.5-5.912-1.912S1.5 3.5 1.5 3.5s3.652-.348 6.059 2.059C8.526 6.526 9 8 9 9.706zm2.5-2.5L9 12M5 8l3.782 3.972"
+                            stroke-width="1" />
+                    </svg>
+                    <h6>
+                        Beauty care
+                    </h6>
+                </div>
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24">
+                        <g class="medicine-outline">
+                            <g fill="currentColor" fill-rule="evenodd" class="Vector" clip-rule="evenodd">
+                                <path
+                                    d="m19.873 12.3l-8.033 7.998a5.678 5.678 0 0 1-8.012-8.047l8.033-7.998a5.678 5.678 0 0 1 8.012 8.047m-1.4-6.618a3.68 
+                                    3.68 0 0 0-5.2-.012l-8.034 7.998a3.678 3.678 0 0 0 5.19 5.213l8.033-7.998a3.68 3.68 0 0 0 .012-5.201Z" />
+                                <path
+                                    d="M8.118 8.524a1 1 0 0 1 1.414 0l6.05 6.05a1 1 0 0 1-1.414 1.414l-6.05-6.05a1 1 0 0 1 0-1.414" />
+                            </g>
+                        </g>
+                    </svg>
+                    <h6>
+                        Medicine
+                    </h6>
+                </div>
+                <div class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 512 512">
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32"
+                            d="M352.92 80C288 80 256 144 256 144s-32-64-96.92-64c-52.76 0-94.54 44.14-95.08 96.81c-1.1 109.33 86.73 187.08 183 
+                            252.42a16 16 0 0 0 18 0c96.26-65.34 184.09-143.09 183-252.42c-.54-52.67-42.32-96.81-95.08-96.81" />
+                        <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="32" d="M48 256h112l48-96l48 160l48-96l32 64h128" />
+                    </svg>
+                    <h6>
+                        Fitness
+                    </h6>
+                </div>
+            </div>
+            <div class="gategoDescription position-relative d-flex gap-4">
+                <img src="./Images/hom2gategoryimage1.jpg" alt="hom2gategoryimage1">
+                <img src="./Images/home2gategoryimage2.jpg" alt="home2gategoryimage2">
+                <div class="description">
+                    <h4>Save up to 10% on select tablets limited time only!</h4>
+                    <p>
+                        Don't miss out on our limited-time sale! 10% discount on a wide range of essential health
+                        products.
+                    </p>
+                    <button>View sale products ></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- opinion section -->
+    <section class="opinion">
+        <div class="container">
+            <h2>Customers review</h2>
+            <div class="customers d-flex align-items-center gap-3 gap-sm-1 flex-wrap">
+                <div class="customer d-flex flex-column gap-3">
+                    <div class="message">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-width="1">
+                                <path
+                                    d="M8.5 18.396V15.5h-2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H12l-3.073 3.073a.25.25 0 0 1-.427-.177Z" />
+                                <path stroke-linecap="round" d="M8.5 12.5h7m-7-3h7" />
+                            </g>
+                        </svg>
+                        <p>
+                            B12 Medicine keeps me energized and focused all day. A true lifesaver for vitality and
+                            wellness!
+                        </p>
+                    </div>
+                    <div class="person">
+                        <img src="./Images/home2opinionPerson1.jpg" alt="Person1">
+                        <span>Olivia Garcia</span>
+                    </div>
+                </div>
+                <div class="customer d-flex flex-column gap-3">
+                    <div class="message">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-width="1">
+                                <path
+                                    d="M8.5 18.396V15.5h-2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H12l-3.073 3.073a.25.25 0 0 1-.427-.177Z" />
+                                <path stroke-linecap="round" d="M8.5 12.5h7m-7-3h7" />
+                            </g>
+                        </svg>
+                        <p>
+                            I’ve regained my energy and feel amazing thanks to B12 Medicine. Highly recommend for health and stamina!
+                        </p>
+                    </div>
+                    <div class="person">
+                        <img src="./Images/home2opinionPerson2.jpg" alt="Person2">
+                        <span>Sophia Brown</span>
+                    </div>
+                </div>
+                <div class="customer d-flex flex-column gap-3">
+                    <div class="message">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                            <g fill="none" stroke="currentColor" stroke-width="1">
+                                <path
+                                    d="M8.5 18.396V15.5h-2a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H12l-3.073 3.073a.25.25 0 0 1-.427-.177Z" />
+                                <path stroke-linecap="round" d="M8.5 12.5h7m-7-3h7" />
+                            </g>
+                        </svg>
+                        <p>
+                            As a vegetarian, B12 Medicine keeps my energy up and my health on track. Perfect for natural support!
+                        </p>
+                    </div>
+                    <div class="person">
+                        <img src="./Images/home2opinionPerson3.jpg" alt="Person3">
+                        <span>Ethan Harris</span>
+                    </div>
+                </div>
+            </div>
+            <h3>Healthcare Insights</h3>
+            <div class="items d-flex flex-wrap gap-4">
+                <div class="item d-flex gap-3">
+                    <div>
+                        <img src="./Images/home2Items1.jpg" alt="item1">
+                    </div>
+                    <div class="d-flex flex-column">
+                        <p>October 25, 2024</p>
+                        <h5>Living well with chronic conditions</h5>
+                        <a href="#">Read more ></a>
+                    </div>
+                </div>
+                <div class="item d-flex gap-3">
+                    <div>
+                        <img src="./Images/home2Items2.jpg" alt="item2">
+                    </div>
+                    <div>
+                        <p>October 25, 2024</p>
+                        <h5>Strength home-Based fitness essential</h5>
+                        <a href="#">Read more ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container d-flex gap-5 flex-wrap">
+            <div class="bigfooter d-flex justify-content-start align-items-start ">
+                <div class="pages">
+                    <h5>Pages</h5>
+                    <h6 class="bigest">Home</h6>
+                    <h6>Shop</h6>
+                    <h6>About</h6>
+                    <h6>Contact</h6>
+                    <h6>Blog</h6>
+                    <h6>Privacy policy</h6>
+                    <h6>FAQs</h6>
+                </div>
+                <div class="utility">
+                    <h5>Utility</h5>
+                    <h6>Utility</h6>
+                    <h6>Instruction</h6>
+                    <h6>Changelog</h6>
+                    <h6>Licenses</h6>
+                    <h6>Link in bio</h6>
+                    <h6>Error 404</h6>
+                    <h6>Password protected</h6>
+                </div>
+            </div>
+
+            <div class="dec d-flex flex-column justify-content-center align-items-center">
+                <div class="logos d-flex justify-content-center d-block">
+                    <div class="vector">
+                        <img src="./Images/vector1.png" alt="one">
+                        <img src="./Images/vector2.png" alt="tow">
+                        <img src="./Images/vector3.png" alt="three">
+                        <img src="./Images/vector4.png" alt="four">
+                    </div>
+                    <div class="logo">
+                        <a href="./Medical Store.html" class="text-reset text-decoration-none fw-500">Medifit</a>
+                    </div>
+                </div>
+                <p class="d-block">
+                    We provides the ultimate solution
+                    for your online store and all the healthcare needs.
+                </p>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M15.725 22v-7.745h2.6l.389-3.018h-2.99V9.31c0-.874.243-1.47 
+                        1.497-1.47h1.598v-2.7a21 21 0 0 0-2.33-.12c-2.304 0-3.881 
+                        1.407-3.881 3.99v2.227H10v3.018h2.607V22H3.104C2.494 22 2 21.506 
+                        2 20.896V3.104C2 2.494 2.494 2 3.104 2h17.792C21.506 2 22 2.494 22 3.104v17.792c0 .61-.494 1.104-1.104 1.104z" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <g fill="none">
+                            <path stroke="currentColor" stroke-width="2"
+                                d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 
+                            11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z" />
+                            <circle cx="16.5" cy="7.5" r="1.5" fill="currentColor" />
+                            <circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="2" />
+                        </g>
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 448 512">
+                        <path fill="currentColor"
+                            d="M64 32C28.7 32 0 60.7 0 96v320c0 35.3 28.7 64 64 64h320c35.3 0 
+                        64-28.7 64-64V96c0-35.3-28.7-64-64-64zm287.3 167.3c0 86.7-66 186.6-186.6 
+                        186.6c-37.2 0-71.7-10.8-100.7-29.4c5.3.6 10.4.8 15.8.8c30.7 0 58.9-10.4 81.4-28c-28.8-.6-53-19.5-61.3-45.5c10.1 1.5 19.2 1.5 
+                        29.6-1.2c-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3c-9-6-16.4-14.1-21.5-23.6s-7.8-20.2-7.7-31c0-12.2 3.2-23.4 
+                        8.9-33.1c32.3 39.8 80.8 65.8 135.2 68.6c-9.3-44.5 24-80.6 64-80.6c18.9 0 35.9 7.9 47.9 20.7c14.8-2.8 29-8.3 41.6-15.8c-4.9 
+                        15.2-15.2 28-28.8 36.1c13.2-1.4 26-5.1 37.8-10.2c-8.9 13.1-20.1 24.7-32.9 34c.2 2.8.2 5.7.2 8.5" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                            d="M5 1a4 4 0 0 0-4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4V5a4 4 0 0 0-4-4zm-.5 11c0-1.074.05-2.087.117-2.937a2.54 
+                        2.54 0 0 1 2.36-2.358A71 71 0 0 1 12 6.545c2.157 0 3.812.074 5.023.16a2.54 2.54 0 0 1 2.36 2.358c.066.85.117 1.863.117 
+                        2.937c0 1.113-.054 2.16-.124 3.028c-.1 1.239-1.044 2.185-2.262 2.27a75 75 0 0 1-5.114.157c-2.178 
+                        0-3.89-.072-5.114-.157c-1.218-.085-2.162-1.031-2.262-2.27A38 38 0 0 1 4.5 12m5.636-2.545L14.386 12l-4.25 2.546z" clip-rule="evenodd" />
+                    </svg>
+                </div>
+            </div>
+            <div class="con d-flex justify-content-start align-items-start flex-column gap-4">
+                <div class="address">
+                    <h5>address</h5>
+                    <p>1640 Parker Rd. Allentown, </p>
+                    <p>New Mexico 31134</p>
+                </div>
+
+                <div class="contact">
+                    <h5>Contact</h5>
+                    <p>hello@gmail.com</p>
+                    <p>(209) 555-0104</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="text d-flex justify-content-center align-items-center pb-5">
+            <h6>Design By Webestica, Powered By Webflow</h6>
+        </div>
+    </footer>
+</body>
+
+</html>
